@@ -19,6 +19,7 @@
 #include "Lab3.h"
 #include "Lab6.h"
 #include "Lab7.h"
+#include "Assignment1.h"
 #include "Buddha.h"
 #include "Game.h"
 #include <iostream>
@@ -51,7 +52,7 @@ int main(int argc, char *argv[])
 	// http://www.youtube.com/watch?v=EEbVHxOkTxw
 	Params::Load("default");
 
-	shared_ptr<Game> game = make_shared<SceneGraphGame>();
+	shared_ptr<Game> game = make_shared<Assignment1>();
 	game->Run();
 	
 	return 0;
