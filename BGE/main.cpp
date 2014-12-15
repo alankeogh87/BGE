@@ -20,6 +20,7 @@
 #include "Lab6.h"
 #include "Lab7.h"
 #include "Assignment1.h"
+#include "AnimatModel.h"
 #include "Buddha.h"
 #include "Game.h"
 #include <iostream>
